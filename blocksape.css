@@ -1,0 +1,15 @@
+.footer-ad {
+	display: block;
+	float: right;
+	margin-bottom: 14px;
+    border: 1px dashed green;
+    float: right;
+    font-weight: normal;
+    line-height: normal;
+    max-height: 38px;
+    max-width: 300px;
+    overflow: hidden;
+    padding: 0.3em 0.8em 1em;
+    text-align: left;
+    text-transform: none;	
+}
