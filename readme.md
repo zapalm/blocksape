@@ -4,11 +4,12 @@ Sape block: module for PrestaShop
 Readme Lang Menu
 ------------
 [На русском][5]
+
 In English (this page)
 
 Description
 ------------
-This is a module for [PrestaShop][4] e-commerce solution (v1.4-1.6) that allows to add a block to display Sape advertisement links.
+This is a module for [PrestaShop][4] e-commerce solution (v1.4-1.6) that allows to add a block to display [Sape][6] advertisement links.
 
 Installation & Update
 ------------
@@ -26,4 +27,5 @@ All files that you commit in your pull request must have Academic Free License (
 [2]: http://doc.prestashop.com/display/PS15/Coding+Standards
 [3]: http://doc.prestashop.com/display/PS15/How+to+write+a+commit+message
 [4]: http://prestashop.com/
-[5]: https://github.com/zapalm/zivosite/blob/master/readme_ru.md
+[5]: https://github.com/zapalm/blocksape/blob/master/readme_ru.md
+[6]: http://www.sape.ru/r.rTYnEaMVRz.php
