@@ -105,6 +105,9 @@ class BlockSape extends Module
 
 	public function hookHeader($params)
 	{
+		if (version_compare(_PS_VERSION_, '1.4', '<'))
+			return '<link href="'._MODULE_DIR_.$this->name.'/blocksape.css" rel="stylesheet" type="text/css" media="all" />';
+
 		Tools::addCSS($this->_path.'blocksape.css', 'all');
 	}
 
