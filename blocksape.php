@@ -23,7 +23,7 @@ class BlockSape extends Module
 	{
 		$this->name = 'blocksape';
 		$this->tab = version_compare(_PS_VERSION_, '1.4', '>=') ? 'advertising_marketing' : 'Advertisement';
-		$this->version = '1.1.1';
+		$this->version = '1.2.0';
 		$this->author = 'zapalm';
 		$this->need_instance = 0;
 		$this->ps_versions_compliancy = array('min' => '1.2.0.0', 'max' => '1.6.1.0');
