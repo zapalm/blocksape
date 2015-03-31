@@ -1,6 +1,6 @@
 <?php
 /**
- * Sape block: module for PrestaShop 1.4-1.6
+ * Sape block: module for PrestaShop 1.2-1.6
  *
  * @author zapalm <zapalm@ya.ru>
  * @copyright (c) 2013-2015, zapalm
@@ -22,11 +22,11 @@ class BlockSape extends Module
 	public function __construct()
 	{
 		$this->name = 'blocksape';
-		$this->tab = 'advertising_marketing';
+		$this->tab = version_compare(_PS_VERSION_, '1.4', '>=') ? 'advertising_marketing' : 'Advertisement';
 		$this->version = '1.1.1';
 		$this->author = 'zapalm';
 		$this->need_instance = 0;
-		$this->ps_versions_compliancy = array('min' => '1.4.0.0', 'max' => '1.6.1.0');
+		$this->ps_versions_compliancy = array('min' => '1.2.0.0', 'max' => '1.6.1.0');
 		$this->bootstrap = false;
 		
 		parent::__construct();
