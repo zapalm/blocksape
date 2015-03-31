@@ -9,7 +9,7 @@ In English (this page)
 
 Description
 ------------
-This is a module for [PrestaShop][4] e-commerce solution (v1.4-1.6) that allows to add a block to display [Sape][6] advertisement links.
+This is a module for [PrestaShop][4] e-commerce solution (v1.2-1.6) that allows to add a block to display [Sape][6] advertisement links.
 
 Installation & Update
 ------------
