@@ -28,7 +28,7 @@ class BlockSape extends Module
 		$this->need_instance = 0;
 		$this->ps_versions_compliancy = array('min' => '1.2.0.0', 'max' => '1.6.1.0');
 		$this->bootstrap = false;
-		
+
 		parent::__construct();
 
 		$this->displayName = $this->l('Sape block');
@@ -39,7 +39,7 @@ class BlockSape extends Module
 	{
 		foreach ($this->conf_default as $c => $v)
 			Configuration::updateValue($c, $v);
-		
+
 		return parent::install()
 			&& $this->registerHook('header')
 			&& $this->registerHook('footer')
@@ -141,7 +141,7 @@ class BlockSape extends Module
 			elseif (!empty($category))
 				$options['request_uri'] = $link->getCategoryLink($category->id, $category->link_rewrite);
 		}
-		
+
 		$sape = new SAPE_client($options);
 		$ad_link = $sape->return_links();
 
