@@ -10,6 +10,7 @@ In English (this page)
 Description
 ------------
 This is a module for [PrestaShop][4] e-commerce solution (v1.2-1.6) that allows to add a block to display [Sape][6] advertisement links.
+More info: http://prestashop.modulez.ru/en/free-products/36-sapient-solution-sape.html
 
 Installation & Update
 ------------
