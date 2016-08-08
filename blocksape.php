@@ -77,6 +77,14 @@ class BlockSape extends Module
 		$output .= '
 			<form action="'.$_SERVER['REQUEST_URI'].'" method="post">
 				<fieldset>
+					<legend><img src="'._PS_ADMIN_IMG_.'help.png" />'.$this->l('Info').'</legend>
+					<label>'.$this->l('SAPE homepage').'</label>
+					<div class="margin-form">
+						<a class="link" target="_blank" href="http://www.sape.ru/r.rTYnEaMVRz.php">sape.ru</a>
+					</div>
+				</fieldset>
+				<br/>
+				<fieldset>
 					<legend><img src="'._PS_ADMIN_IMG_.'cog.gif" />'.$this->l('Settings').'</legend>
 					<label>'.$this->l('Your user ID').'</label>
 					<div class="margin-form">
